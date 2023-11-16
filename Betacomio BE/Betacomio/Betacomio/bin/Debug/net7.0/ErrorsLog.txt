@@ -1,0 +1,20 @@
+2023-09-18 10:32:01.5248|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:34:05.9865|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:35:48.8369|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:37:17.1629|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:38:44.9169|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:40:56.3310|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:41:59.1424|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:45:12.2134|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:50:25.1279|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 10:51:31.0804|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36

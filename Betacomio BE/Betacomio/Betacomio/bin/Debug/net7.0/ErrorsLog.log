@@ -1,0 +1,6 @@
+2023-09-21 14:29:20.6261|ERROR|Betacomio.Controllers.AddressesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.AddressesController.GetAddresses() in C:\Users\Alessandro\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\AddressesController.cs:line 28
+2023-09-21 14:30:39.7239|ERROR|Betacomio.Controllers.AddressesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.AddressesController.GetAddresses() in C:\Users\Alessandro\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\AddressesController.cs:line 28
+2023-09-21 14:43:17.0451|ERROR|Betacomio.Controllers.AddressesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.AddressesController.GetAddresses() in C:\Users\Alessandro\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\AddressesController.cs:line 28
