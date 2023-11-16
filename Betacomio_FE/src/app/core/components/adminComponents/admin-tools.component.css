@@ -1,0 +1,11 @@
+.container {
+  background-image: url('../../../../assets/betacomioBackground.png');
+}
+
+.mat-mdc-raised-button.color-button-secondary {
+  background-color: white;
+  color: #023047;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}

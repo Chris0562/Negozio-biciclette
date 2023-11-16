@@ -1,0 +1,86 @@
+
+<mat-accordion> 
+  <mat-expansion-panel> 
+    <mat-expansion-panel-header> 
+      <mat-panel-title> ADD NEW PRODUCT </mat-panel-title> 
+    </mat-expansion-panel-header>
+    <div> 
+      <form #productF="ngForm" (submit)="srv.postNewProduct(productF)">
+          <input #NameRef="ngModel" [(ngModel)]="name"  name="name" type="text" placeholder="Insert Name" required>
+          <input #ProductRef="ngModel" [(ngModel)]="productNumber" name="productNumber" type="text" placeholder="Insert Product Number" required>
+          <input #ColorRef="ngModel" [(ngModel)]="color" name="color" type="text" placeholder="Insert color" >
+          <input #CostRef="ngModel" [(ngModel)]="standardCost" name="standardCost" type="text" placeholder="Insert Standard Cost" required>
+          <input #PriceRef="ngModel" [(ngModel)]="listPrice" name="listPrice" type="text" placeholder="Insert List Price" required>
+          <input #SizeRef="ngModel" [(ngModel)]="size" name="size" type="text" placeholder="Insert size">
+          <input #WeightRef="ngModel" [(ngModel)]="weight" name="weight" type="text" placeholder="Insert weight">
+          <select #CategoryRef="ngModel" [(ngModel)]="productCategoryId" name="productCategoryId" required (ngModelChange)="this.srv.getProductModelsById($event)" >
+            <option *ngFor="let c of srv.categories" value="{{c.productCategoryId}}" >{{c.name}}
+          </select>
+          <select  CategoryRef="ngModel" [(ngModel)]="productModelId" name="productModelId" required>
+            <option *ngFor="let m of srv.productModels" value="{{m.productModelId}}">{{m.nomeModello}}
+          </select>
+          <input #DateRef="ngModel" [(ngModel)]="sellStartDate" name="sellStartDate" type="date" placeholder="Insert sell start date" required>
+          <button type="submit" [disabled]="productF.invalid">Submit</button>
+        </form>
+    </div>
+  </mat-expansion-panel> 
+</mat-accordion>
+
+
+
+<mat-accordion> 
+<mat-expansion-panel> 
+  <mat-expansion-panel-header> 
+    <mat-panel-title> DELETE PRODUCT </mat-panel-title> 
+  </mat-expansion-panel-header> 
+
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Choose a Model</mat-label>
+          <input type="text"
+                aria-label="Number"
+                matInput
+                [formControl]="myControl"
+                [matAutocomplete]="auto"
+                (keyup.enter)="createTable(myControl.value)">  <!-- la ricerca parte quando premo invio e al click dell'opzione -->
+          <mat-autocomplete #auto="matAutocomplete" >  <!--l'auto complete l'input quando clicchi l'option -->
+              <mat-option  (click)="createTable(myControl.value)" *ngFor="let option of filteredOptions | async" [value]="option.nomeModello">  <!--essendo filtered option un observable, angular material usa la pipe async per effettuare la subscription direttamente dal template-->
+                {{option.nomeModello}}
+              </mat-option>     
+          </mat-autocomplete>    
+        </mat-form-field>
+      </form>
+
+      <table *ngIf="this.srv.adminProducts.length > 0"> 
+        <thead> 
+          <tr> 
+            <th>ProductID</th> 
+            <th>Name</th> 
+            <th>Product Number</th> 
+            <th>Delete</th> 
+          </tr> 
+        </thead> 
+        <tbody> 
+          <tr *ngFor="let filter of this.srv.adminProducts"> 
+            <td>{{ filter.productId }}</td> 
+            <td>{{ filter.name }}</td> 
+            <td>{{ filter.productNumber }}</td> 
+            <td> 
+              <button mat-button color="warn" (click)="this.srv.deleteProduct(filter.productId)">Delete</button> 
+            </td> 
+          </tr> 
+        </tbody> 
+      </table> 
+
+</mat-expansion-panel> 
+</mat-accordion>
+
+
+
+
+
+
+
+
+
+

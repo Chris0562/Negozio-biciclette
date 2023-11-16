@@ -1,0 +1,17 @@
+<form class="styleForm" #updateF="ngForm" (submit)="this.updateUser(updateF)">
+  <p>Update your personal info</p>
+  <br>
+  <input #NameRef="ngModel" [(ngModel)]="firstName"  name="firstName" type="text" placeholder="Insert First Name" required value="{{this.api.loggedUser?.firstName}}">
+  <br>
+  <input #MiddleRef="ngModel" [(ngModel)]="middleName" name="middleName" type="text" placeholder="Insert Middle Name" value="{{this.api.loggedUser?.middleName}}">
+  <br>
+  <input #LastRef="ngModel" [(ngModel)]="lastName" name="lastName" type="text" placeholder="Insert Last Name" required value="{{this.api.loggedUser?.lastName}}">
+  <br>
+  <input #UserRef="ngModel" [(ngModel)]="userName" name="userName" type="text" placeholder="Insert Username 'optional" value="{{this.api.loggedUser?.userName}}">
+  <br>
+  <input #EmailRef="ngModel" [(ngModel)]="emailAddress" name="emailAddress" type="email" placeholder="Insert email" required value="{{this.api.loggedUser?.emailAddress}}" >
+  <br>
+  <input #PhoneRef="ngModel" [(ngModel)]="phone" name="phone" type="text" placeholder="Insert Phone Number" value="{{this.api.loggedUser?.phone}}">
+  <br>
+  <button type="submit">Submit</button>
+</form>

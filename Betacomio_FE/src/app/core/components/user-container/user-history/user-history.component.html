@@ -1,0 +1,30 @@
+<div class="super-container">
+    <div class="title">
+        <h1>Your Orders:</h1>
+    </div>
+    
+    <div class="container" *ngFor="let order of this.api.orderHistory?.reverse(); let i = index">
+        <div class="header">
+            <div class="date">
+                <p>Order Date: {{order.orderDate}}</p>
+                <p>Delivery date: {{order.dueDate}}</p>
+            </div>
+            <div class="address">
+                <p>Shipped to: {{this.api.loggedUser?.firstName}} {{this.api.loggedUser?.lastName}}</p>
+                <p>Address: {{order.city}}, {{order.addressLine1}}</p>
+            </div>   
+            <div class="info">
+                <p>Order Number: {{order.salesOrderNumber}}</p>
+                <p>Total: {{order.totalDue | currency:'EUR'}}</p>
+            </div>   
+        </div>
+        <div class="details">
+            <div class="detail" *ngFor="let detail of order.details">
+                <p class="first">Product Id: {{detail.productId}}</p>
+                <p class="second">Quantity: {{detail.orderQty}}</p>
+                <p class="third">Price: {{detail.lineTotal | currency:'EUR'}}</p>        
+            </div>
+        </div> 
+    </div>
+</div>
+

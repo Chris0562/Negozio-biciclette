@@ -1,0 +1,64 @@
+.loginStyle{ 
+    display: flex; 
+    flex-direction: column; 
+    padding: 30px; 
+    align-items: center; 
+} 
+ 
+.input { 
+    border: none; 
+    outline: none; 
+    border-radius: 15px; 
+    padding: 1em; 
+    background-color: #ccc; 
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3); 
+    transition: 300ms ease-in-out; 
+  } 
+   
+  .input:focus { 
+    background-color: white; 
+    transform: scale(1.05); 
+    box-shadow: 13px 13px 100px #969696, 
+               -13px -13px 100px #ffffff; 
+  } 
+ 
+ 
+ 
+ 
+ 
+  button { 
+    width: 9em; 
+    height: 3em; 
+    border-radius: 30em; 
+    font-size: 15px; 
+    color: black; 
+    font-family: inherit; 
+    border: none; 
+    position: relative; 
+    overflow: hidden; 
+    z-index: 1; 
+    box-shadow: 6px 6px 12px #c5c5c5, 
+                -6px -6px 12px #ffffff; 
+   } 
+    
+   button::before { 
+    content: ''; 
+    width: 0; 
+    height: 3em; 
+    border-radius: 30em; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-image: linear-gradient(to right, #f89b29 0%, #ff0f7b 100%); 
+ 
+    /* linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% ) */ 
+ 
+ 
+    transition: .5s ease; 
+    display: block; 
+    z-index: -1; 
+   } 
+    
+   button:hover::before { 
+    width: 9em; 
+   }

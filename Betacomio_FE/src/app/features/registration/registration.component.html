@@ -1,0 +1,90 @@
+<form 
+  style="width: 100%; height: 100%" 
+  class="loginStyle" 
+  #f="ngForm" 
+  (submit)="srv.postNewUser(f)" 
+> 
+  <div id="form-div" style="border-radius: 16px; background-color: white"> 
+    <p style="font-weight: 600">Account registration</p> 
+ 
+    <input 
+      class="input" 
+      #NameRef="ngModel" 
+      [(ngModel)]="firstName" 
+      autocomplete="off" 
+      name="firstName" 
+      type="text" 
+      placeholder="Insert First Name *" 
+      required 
+    /> 
+    <br /> 
+    <input 
+      class="input" 
+      #MiddleRef="ngModel" 
+      [(ngModel)]="middleName" 
+      autocomplete="off" 
+      name="middleName" 
+      type="text" 
+      placeholder="Insert Middle Name" 
+    /> 
+    <br /> 
+    <input 
+      class="input" 
+      #LastRef="ngModel" 
+      [(ngModel)]="lastName" 
+      autocomplete="off" 
+      name="lastName" 
+      type="text" 
+      placeholder="Insert Last Name *" 
+      required 
+    /> 
+    <br /> 
+    <input 
+      class="input" 
+      #UserRef="ngModel" 
+      [(ngModel)]="userName" 
+      autocomplete="off" 
+      name="userName" 
+      type="text" 
+      placeholder="Insert Username" 
+    /> 
+    <br /> 
+    <input 
+      class="input" 
+      #EmailRef="ngModel" 
+      [(ngModel)]="email" 
+      name="email" 
+      type="email" 
+      placeholder="Insert email *" 
+      required 
+    /> 
+    <br /> 
+    <input 
+      class="input" 
+      #PhoneRef="ngModel" 
+      [(ngModel)]="phoneNumber" 
+      name="phoneNumber" 
+      type="text" 
+      placeholder="Insert Phone Number" 
+    /> 
+    <br /> 
+
+    <input 
+      class="input" 
+      #PwdRef="ngModel" 
+      [(ngModel)]="password" 
+      autocomplete="off" 
+      name="password" 
+      type="text" 
+      placeholder="Insert Password *" 
+      required
+      (blur)="validatePassword()"
+    /> 
+    <span id="label" *ngIf="!isValidated" style="color: red; font-size: 12px; display: flex;">At least 8 characters, 1 uppercase, 1 lowercase and 1 number.</span>
+ 
+    <br /> 
+    <br /> 
+    <button mat-raised-button type="submit" [disabled]="!isValidated || f.invalid"
+    >Submit</button> 
+  </div> 
+</form>

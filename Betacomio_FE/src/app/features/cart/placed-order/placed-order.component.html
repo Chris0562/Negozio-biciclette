@@ -1,0 +1,27 @@
+<div class="header">
+    <h1>You Purchased:</h1>
+</div>
+
+<section class="container">
+    <div class="header">
+        <div class="date">
+            <p>Order Date: {{this.api.lastPlacedOrder?.orderDate}}</p>
+            <p>Delivery date: {{this.api.lastPlacedOrder?.dueDate}}</p>
+        </div>
+        <div class="address">
+            <p>Shipped to: {{this.api.loggedUser?.firstName}} {{this.api.loggedUser?.lastName}}</p>
+            <p>Address: {{this.api.lastPlacedOrder?.city}}, {{this.api.lastPlacedOrder?.addressLine1}}</p>
+        </div>   
+        <div class="info">
+            <p>Order Number: {{this.api.lastPlacedOrder?.salesOrderNumber}}</p>
+        </div>     
+    </div>
+    <div class="details">
+        <div class="detail" *ngFor="let detail of this.api.lastPlacedOrder?.details; let i = index">
+            <p class="first">Product Name: {{this.cart.countedCart[i].product.name}}</p>
+            <p class="second">Quantity: {{detail.orderQty}}</p>
+            <p class="third">Price: {{detail.lineTotal | currency:'EUR'}}</p>
+        </div>
+    </div>
+    
+</section>

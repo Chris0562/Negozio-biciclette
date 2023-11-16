@@ -1,0 +1,108 @@
+<!-- sezione espandibile -->
+<mat-accordion> 
+  <mat-expansion-panel> 
+    <mat-expansion-panel-header> 
+      <mat-panel-title> ADD NEW ADMIN </mat-panel-title> 
+    </mat-expansion-panel-header>
+    <div> 
+      <form #adminF="ngForm" (submit)="srv.postNewAdmin(adminF)">
+        <input #NameRef="ngModel" [(ngModel)]="firstName"  name="firstName" type="text" placeholder="Insert First Name" required>
+        <input #MiddleRef="ngModel" [(ngModel)]="middleName" name="middleName" type="text" placeholder="Insert Middle Name">
+        <input #LastRef="ngModel" [(ngModel)]="lastName" name="lastName" type="text" placeholder="Insert Last Name" required>
+        <input #UserRef="ngModel" [(ngModel)]="userName" name="userName" type="text" placeholder="Insert Username 'optional">
+        <input #EmailRef="ngModel" [(ngModel)]="email" name="email" type="email" placeholder="Insert email" required>
+        <input #PhoneRef="ngModel" [(ngModel)]="phoneNumber" name="phoneNumber" type="text" placeholder="Insert Phone Number">
+        <input #PwdRef="ngModel" [(ngModel)]="password" name="password" type="text" placeholder="Insert Password" required>
+        <mat-checkbox #checkRef="ngModel" [(ngModel)]="isAdmin" name="isAdmin" class="example-margin" style="display: none">Admin</mat-checkbox>
+        <button type="submit" [disabled]="adminF.invalid">Submit</button>
+      </form>
+    </div>
+  </mat-expansion-panel> 
+</mat-accordion>
+
+
+<!-- sezione espandibile -->
+
+<mat-accordion> 
+  <mat-expansion-panel > 
+    <mat-expansion-panel-header> 
+      <mat-panel-title> MANAGE USERS  </mat-panel-title> 
+    </mat-expansion-panel-header>
+    <div> 
+      <div class="mat-elevation-z8">
+        <table mat-table [dataSource]="dataSource">
+      
+          <!-- Position Column -->
+          <ng-container matColumnDef="Position">
+            <th mat-header-cell *matHeaderCellDef> No. </th>
+            <td mat-cell *matCellDef="let element; let i = index"> {{i + 1}} </td>
+          </ng-container>
+      
+          <!-- UserId Column -->
+          <ng-container matColumnDef="UserID">
+            <th mat-header-cell *matHeaderCellDef> UserId </th>
+            <td mat-cell *matCellDef="let element"> {{element.userId}} </td>
+          </ng-container>
+      
+          <!-- names Column -->
+          <ng-container matColumnDef="Name">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.firstName}} {{element.middleName}} {{element.lastName}}</td>
+          </ng-container>
+      
+          <!-- Email Column -->
+          <ng-container matColumnDef="Email">
+            <th mat-header-cell *matHeaderCellDef> Email </th>
+            <td mat-cell *matCellDef="let element"> {{element.emailAddress}} </td>
+          </ng-container>
+      
+          <!-- Phone Column -->
+          <ng-container matColumnDef="Phone">
+            <th mat-header-cell *matHeaderCellDef> Phone </th>
+            <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+          </ng-container>
+      
+          <!-- username Column -->
+          <ng-container matColumnDef="Username">
+            <th mat-header-cell *matHeaderCellDef> Username </th>
+            <td mat-cell *matCellDef="let element"> {{element.userName}} </td>
+          </ng-container>
+      
+          <!-- isAdmin Column -->
+          <ng-container matColumnDef="IsAdmin">
+            <th mat-header-cell *matHeaderCellDef> IsAdmin </th>
+            <td mat-cell *matCellDef="let element"> {{element.isAdmin}} </td>
+          </ng-container>
+      
+          <!-- date Column -->
+          <ng-container matColumnDef="ModifiedDate">
+            <th mat-header-cell *matHeaderCellDef> ModifiedDate </th>
+            <td mat-cell *matCellDef="let element"> {{element.modifiedDate | date}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="Delete/Update">
+            <th mat-header-cell *matHeaderCellDef> Delete/Update </th>
+            <td mat-cell *matCellDef="let element"> <button (click)="this.deleteUser(element.userId, element)">delete</button></td>
+          </ng-container>
+      
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+      
+        <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                       showFirstLastButtons
+                       aria-label="Select page of periodic elements">
+        </mat-paginator>
+      </div>
+    </div>
+  </mat-expansion-panel> 
+</mat-accordion>
+
+
+
+
+
+
+
+
+

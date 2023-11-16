@@ -1,0 +1,118 @@
+<div class="navbar">
+  <input  type="checkbox" id="hamburger" />
+  <label  class="menuicon" for="hamburger">
+    <span ></span>
+  </label>
+
+  <div style="display: flex; " id="bar">
+    <div style="margin-top: 0.2%;" class="logo">
+      <a href="#top"
+        ><img
+          src="../../../assets/LogoBetacomio.PNG"
+          alt="not found"
+        />
+      </a>
+    </div>
+
+    <div id="search-bar">
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label style="border-radius: 16px"
+            >Choose a Model
+            <img
+              id="search"
+              src="https://static.vecteezy.com/system/resources/previews/018/931/574/original/magnifying-glass-icon-png.png"
+              alt="not found"
+            />
+          </mat-label>
+          <input
+            type="text"
+            aria-label="Number"
+            matInput
+            [formControl]="myControl"
+            [matAutocomplete]="auto"
+            (keyup.enter)="navigateToProduct(myControl.value)"
+          />
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option
+              (click)="navigateToProduct(myControl.value)"
+              *ngFor="let option of filteredOptions | async"
+              [value]="option.nomeModello"
+            >
+              {{ option.nomeModello }}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+      </form>
+    </div>
+  </div>
+
+  <nav class="menu-visibility" >
+    <ul>
+      <li *ngIf="checkAdmin()">
+        <a
+          class="link-food"
+          id="admin-button"    
+          [routerLink]="'/admin'"
+          >ADMIN
+        </a>
+      </li>
+      <li>
+        <a class="active" id="parent" [routerLink]="'/parentCategories'"
+          ><p>HOME</p></a
+        >
+      </li>
+
+      <li>
+        <a class="submenu" href="#" [routerLink]="['/account']">ACCOUNT</a>
+      </li>
+      
+      <li >
+        <a class="link-food blackText" *ngIf="checkSession()" [routerLink]="['/cart']"
+          >CART</a
+        >
+      </li>
+      <li>
+        <a
+          class="link-food blackText"
+          id="register"
+          *ngIf="!checkSession()"
+          [routerLink]="['/registration']"
+        >
+          REGISTER
+        </a>
+      </li>
+      <li >
+        <a
+          style="cursor: pointer;"
+          class="link-food blackText"
+          id="login"
+          *ngIf="!checkSession(); else logoutTemp"
+          (click)="openLoginDialog()"
+        >
+          LOGIN
+        </a>
+      </li>
+
+      <li class="lingua">
+        <a class="blackText" href="#">Lingua</a>
+        <ul>
+          <li><a class="link-food" href="#">It - italiano</a></li>
+          <li><a class="link-food" href="#">Fr - français </a></li>
+          <li><a class="link-food" href="#">En - english</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    
+  </nav>
+</div>
+
+<ng-template #logoutTemp>
+  <a  
+    class="blackText" 
+    (click)="logout()" 
+    style="cursor: pointer;"
+    >LOGOUT
+  </a>
+</ng-template>

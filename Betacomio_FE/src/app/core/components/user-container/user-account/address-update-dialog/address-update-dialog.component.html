@@ -1,0 +1,19 @@
+<form class="styleForm" #updateAF="ngForm" (submit)="submitAddress(updateAF)">
+  <p>Update your address</p>
+  <br>
+  <input #AddressLine1Ref="ngModel" [(ngModel)]="addressLine1"  name="addressLine1" type="text" placeholder="Insert Address" value="{{this.api.address?.address?.addressLine1}}" required>
+  <br>
+  <input #AddressLine2Ref="ngModel" [(ngModel)]="addressLine2" name="addressLine2" type="text" placeholder="Insert floor/stair" value="{{this.api.address?.address?.addressLine2}}">
+  <br>
+  <input #CityRef="ngModel" [(ngModel)]="city" name="city" type="text" placeholder="Insert City" value="{{this.api.address?.address?.city}}" required>
+  <br>
+  <input #StateProvinceRef="ngModel" [(ngModel)]="stateProvince" name="stateProvince" type="text" placeholder="Insert State Province" value="{{this.api.address?.address?.stateProvince}}" required>
+  <br>
+  <input #CountryRegionRef="ngModel" [(ngModel)]="countryRegion" name="countryRegion" type="text" placeholder="Insert Country Region" required value="{{this.api.address?.address?.countryRegion}}" required>
+  <br>
+  <input #PostalCodeRef="ngModel" [(ngModel)]="postalCode" name="postalCode" type="text" placeholder="Insert Postal Code" value="{{this.api.address?.address?.postalCode}}" required>
+  <br>
+  <input #AddressType="ngModel" [(ngModel)]="addressType" name="addressType" type="text" placeholder="Insert Address Type" value="{{this.api.address?.addressType}}" required>
+  <br>
+  <button  type="submit">Submit</button>
+</form>

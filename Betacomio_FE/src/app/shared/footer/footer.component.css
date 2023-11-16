@@ -1,0 +1,97 @@
+footer {
+  background-color: lightgray;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 8;
+  
+
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+.container{
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+}
+
+#social{
+display: flex;
+justify-content: space-around;
+width: 40%;
+}
+
+
+
+.link-footer a{
+text-decoration: none;
+color: black;
+}
+
+.link-footer a:hover{
+  color: rgb(117, 115, 115) ; 
+}
+
+
+
+
+
+#x, #facebook, #instagram, #linkedin{
+  width: 3rem;
+  height: 3rem;
+}
+
+
+@media screen and (max-width: 640px) {
+
+  #x, #facebook, #instagram, #linkedin{
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .container{
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+footer img{
+border-radius: 18px;
+
+}
+footer a:hover{
+transform: scale(1.2);
+}
+
+@media screen and (max-width: 440px){
+.container{
+  display: flex; 
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+
+}
+
+footer{
+text-align: left;
+}
+#link-middle p:first-child{
+padding-bottom: 8px;
+}
+.container div{
+padding-bottom: 8px;
+padding-top: 8px;
+}
+
+
+footer div {
+margin-left: 10px;
+}
+
+}

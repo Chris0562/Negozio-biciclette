@@ -1,0 +1,12 @@
+<!-- <li *ngFor="let c of srv.categories">
+  <a [routerLink]="['../../productModels', c.name]">{{c.name}}</a>
+</li> -->
+<section class="categories">
+  <div class="card-container" *ngFor="let c of srv.singleCategories let i = index" style="cursor: pointer;">
+      <div class="card" [routerLink]="['../productModels', c.name]" style="background: url(https://picsum.photos/500/100?blur=1&?random={{i}}) no-repeat; background-size: cover;"> 
+        <div id="opacityCard" class="front-content"> 
+          <p>{{c.name}}</p>
+        </div> 
+      </div>   
+  </div>
+</section>

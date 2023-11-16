@@ -1,0 +1,16 @@
+<!-- <li *ngFor="let m of srv.productModels">
+  <a [routerLink]="['../../products', m.nomeModello]">{{m.nomeModello}}</a>
+</li> -->
+<div class="banner">
+  <p>{{this.name}}</p>
+</div>
+
+<section class="productModels">
+  <div class="card-container" *ngFor="let m of srv.productModels let i = index" style="cursor: pointer;">
+      <div class="card" [routerLink]="['../../products', m.nomeModello]" style="background: url(https://picsum.photos/1200/70?random={{i}}); background-size: cover;" > 
+      <div class="content"> 
+        <p>{{m.nomeModello}}</p>
+      </div> 
+      </div>   
+  </div>
+</section>

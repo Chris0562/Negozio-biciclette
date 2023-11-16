@@ -1,0 +1,40 @@
+
+
+<form class="loginStyle" #loginF="ngForm" (submit)="login(loginF)"> 
+  <p>Input your credentials</p> 
+  <br /> 
+  <div> 
+    <input 
+      class="input" 
+      #EmailRef="ngModel" 
+      [(ngModel)]="email" 
+      name="email" 
+      type="email" 
+      autocomplete="off" 
+
+      placeholder="Insert Email" 
+      required 
+    /> 
+  </div> 
+  <br /> 
+  <div> 
+    <input 
+      class="input" 
+      #PwdRef="ngModel" 
+      [(ngModel)]="password" 
+      name="password" 
+      type="text" 
+      autocomplete="off" 
+      placeholder="Insert Password" 
+      required 
+    /> 
+  </div> 
+  <br /> 
+  <button type="submit" [disabled]="loginF.invalid">Login</button> 
+</form>
+
+
+
+
+
+

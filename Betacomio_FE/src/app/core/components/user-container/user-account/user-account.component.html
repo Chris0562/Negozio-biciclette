@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="cardMain">
+    <div class="cardTitle">
+      <p class="pTitle" style="background-color: #8ECAE6;">Your Account Info</p>
+    </div>
+    
+    <div class="cardSecondary">
+      <p>Name: {{this.api.loggedUser?.firstName}} {{this.api.loggedUser?.middleName}} {{this.api.loggedUser?.lastName}}</p>
+      <p>Username: {{this.api.loggedUser?.userName}}</p>
+      <p>eMail: {{this.api.loggedUser?.emailAddress}}</p>
+      <p>Phone number: {{this.api.loggedUser?.phone}}</p>
+      <button mat-raised-button color="primary" (click)="updateUser()">Update Personal Info</button>
+    </div>
+  </div>
+  
+  <div class="cardMain">
+    <div class="cardTitle">
+      <p class="pTitle" style="background-color: #8ECAE6;">Your Address Info:</p>
+    </div>
+  
+    <div class="cardSecondary">
+      <p>Address: {{this.api.address?.address?.addressLine1}}</p>
+      <p>Floor/Stairs/Other: {{this.api.address?.address?.addressLine2}}</p>
+      <p>Address Type: {{this.api.address?.addressType}}</p>
+      <p>City: {{this.api.address?.address?.city}}</p>
+      <p>Province: {{this.api.address?.address?.stateProvince}}</p>
+      <p>Country: {{this.api.address?.address?.countryRegion}}</p>
+      <p>Postal Code: {{this.api.address?.address?.postalCode}}</p>
+      <button mat-raised-button color="primary" (click)="updateAddress()">Update Address Info</button>
+    </div>  
+  </div>
+</div>
+  

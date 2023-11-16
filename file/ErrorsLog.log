@@ -1,0 +1,199 @@
+2023-09-18 11:27:23.9033|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 11:27:53.4314|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 11:27:54.2795|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 11:27:54.7896|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 11:27:55.7150|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 11:27:56.3453|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 11:27:57.0976|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 11:27:57.8995|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:19:05.9981|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:24:37.8336|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:48:33.0007|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:53:14.2223|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:57:03.4253|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:59:06.5087|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:59:36.8190|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 12:59:40.4047|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 13:33:30.5611|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:37:46.0063|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:38:39.3832|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:39:02.6254|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:39:25.5989|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:39:43.5062|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:42:03.5459|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:43:25.1462|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:48:09.2318|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:48:47.7997|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:49:48.6094|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:51:13.5610|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:52:15.1472|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:54:01.5605|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:55:11.9528|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:55:49.7576|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:55:53.9397|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:56:03.7672|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:56:48.9517|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:56:49.4628|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:56:56.7631|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:05.0726|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:13.5701|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:18.3613|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:31.3771|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:39.0945|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:49.4872|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:56.9482|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:57:58.9447|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:58:19.2180|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:58:22.7926|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:59:02.2151|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:59:06.6141|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:59:17.4869|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:59:20.2084|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:59:24.7486|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 13:59:59.4961|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:00:02.8714|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:00:05.8847|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:00:17.0140|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:00:21.5797|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:00:45.7776|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:03:34.2178|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:04:22.9498|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:06:06.7173|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:06:19.3278|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:06:45.3931|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:07:35.3907|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:08:44.0292|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:08:56.1426|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:09:33.4691|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:09:49.2726|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:10:13.8102|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:10:30.1541|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:10:41.1254|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:10:47.5410|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:14:46.6837|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:14:56.4240|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:15:07.9103|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:16:12.1784|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:16:20.0348|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:17:10.6269|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:18:36.1316|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:21:46.6479|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:21:54.8294|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:22:25.7690|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:25:29.5548|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:28:37.8849|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:30:25.6797|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:35:02.7673|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:35:54.4357|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:36:02.8572|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:37:01.9989|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:37:22.6978|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:37:27.8500|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:37:52.5376|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:38:20.5092|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:38:34.9727|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:38:39.5599|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:38:51.8596|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:40:02.9087|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:40:16.1943|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:40:54.9777|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:42:56.5456|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:44:26.1860|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:44:26.6930|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:45:05.6568|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:45:05.6772|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:49:16.3700|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:49:16.8122|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.
+2023-09-18 14:51:39.6288|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 14:51:40.1295|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 14:54:11.0700|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 14:54:11.6143|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 14:59:45.3855|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 14:59:45.8513|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:01:08.5211|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:01:09.0311|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:03:50.4188|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:03:50.8683|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:07:40.7991|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:07:41.3443|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:07:43.7735|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:07:43.7846|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:08:47.7358|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:08:50.0086|INFO|Betacomio.Controllers.ViewParentCategoriesController|Errore NLOG Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:09:44.6797|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:10:45.0654|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:15:08.2153|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:17:18.8830|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:18:25.3457|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:18:37.0928|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:19:28.9152|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:20:27.7388|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:21:54.7648|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:22:39.4420|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.
+2023-09-18 15:24:02.3686|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.
+2023-09-18 15:24:55.0893|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.
+2023-09-18 15:25:15.7996|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.
+2023-09-18 15:26:09.7603|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.
+2023-09-18 15:26:43.7884|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:27:27.4691|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:27:29.7211|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:29:06.7469|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:29:53.7931|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:33:26.0038|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:35:25.0554|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:35:52.5686|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:39:02.2155|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:40:55.0217|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.Collections.ListDictionaryInternal
+2023-09-18 15:41:56.0865|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:42:03.4971|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:42:12.9336|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36
+2023-09-18 15:42:57.2657|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.
+2023-09-18 15:43:57.5300|ERROR|Betacomio.Controllers.ViewParentCategoriesController|Attempted to divide by zero.
+2023-09-18 15:44:35.9189|ERROR|Betacomio.Controllers.ViewParentCategoriesController|System.DivideByZeroException: Attempted to divide by zero.
+   at Betacomio.Controllers.ViewParentCategoriesController.GetViewParentCategories() in C:\Users\Betacom\Desktop\Workspace\Betacomio\Betacomio BE\Betacomio\Betacomio\Controllers\ViewParentCategoriesController.cs:line 36

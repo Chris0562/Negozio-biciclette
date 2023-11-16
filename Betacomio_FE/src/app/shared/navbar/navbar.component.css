@@ -1,0 +1,660 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/* -------------reset----------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+
+.logo img {
+  margin-left: 1rem;
+  width: 10rem;
+  height: 3rem;
+}
+
+#search {
+  width: 1rem;
+  height: 1rem;
+}
+.example-form input{
+  height: 1rem
+}
+
+.example-full-width{
+  height: 75px; 
+  margin-left: 20px;
+}
+#search-bar{
+  height: 20px;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul li {
+  list-style: none;
+}
+
+html,
+body {
+  /* font-family: "Roboto Slab", serif; */
+  
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    background-size: cover;
+  background-position: center;
+}
+
+#offerta {
+  width: 60rem !important;
+  margin: 0 auto !important;
+  margin-top: 2.7rem !important;
+}
+
+#partnership {
+  margin-bottom: 3rem !important;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: bold;
+  color: #a24038 !important;
+}
+
+/* -----------------contenitore e contenuto ------------------ */
+.contenitore .contenuto {
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contenitore .contenuto a {
+  color: lightgray;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contenitore .contenuto a:hover {
+  color: lightgray;
+}
+
+/* -----------------Menu nella versione mobile-----------------*/
+.active {
+  color: black;
+  /* background-color: lightgray; */
+}
+
+.active-dropdown {
+  color: black;
+  /* background-color: lightgray; */
+}
+
+nav {
+  height: 100%;
+  background-color: lightgray; /* primary lightcolor* /* sfondo menu mobile*/
+  position: fixed;
+  width: 50%;
+  margin-top: 54px;
+  visibility: hidden;
+  overflow: auto; /* permette lo scroll quando il menu è aperto*/
+}
+
+nav ul {
+  padding-bottom: 54px;
+}
+
+nav ul li a {
+  padding: 16px 0 16px 32px;
+  display: block;
+  color: black;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submenu {
+  color: lightgray;
+  padding-left: 55px;
+  padding-bottom: 5px;
+}
+
+.active, .submenu, .blackText {
+  color: black !important;
+}
+
+
+
+nav ul li ul {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+nav ul li ul li a {
+  font-size: 16px;
+  padding: 10px 0 10px 55px;
+  border: hidden;
+}
+
+.lingua {
+  border-top: 1px solid lightgray;
+}
+
+.lingua > a::before {
+  content: url(img/earth-globe.svg);
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+/* ----------------- div bar per l'attivazione del menu ------------------ */
+#bar {
+  background-color: lightgray;
+  height: 54px;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.4);
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+#bar #logo {
+  float: right;
+  margin-right: 12px;
+}
+
+/* ----------------- Hamburger animation ------------------ */
+#hamburger {
+  display: none;
+  
+}
+
+.menuicon {
+  position: fixed;
+  height: 54px;
+  width: 54px;
+  margin-left: 5px;
+  z-index: 3;
+}
+
+.menuicon span {
+  display: block;
+  top: 25px;
+  width: 40px;
+  height: 3px;
+  left: 8px;
+  background-color: black;
+  position: relative;
+  border-radius: 20px;
+  transition-duration: 0;
+  transition-delay: 0.1s;
+}
+
+.menuicon span::after,
+.menuicon span::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: black;
+  border-radius: 20px;
+  transition-duration: 0.1s;
+  transition-delay: 0.1s, 0;
+}
+
+.menuicon span::before {
+  margin-top: -10px;
+}
+
+.menuicon span::after {
+  margin-top: 10px;
+}
+
+#hamburger:checked ~ .menuicon span {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#hamburger:checked ~ .menuicon span::before {
+  margin-top: 0px;
+  transition-delay: 0, 0.3s;
+}
+
+#hamburger:checked ~ .menuicon span::after {
+  margin-top: 0px;
+  transition-delay: 0, 0.3s;
+}
+
+#hamburger:checked ~ .menuicon span::before {
+  transform: rotate(45deg);
+}
+
+#hamburger:checked ~ .menuicon span::after {
+  transform: rotate(-45deg);
+}
+
+/* ----------------- menu animation faccio apparire il menu ------------------ */
+.menu-visibility {
+  background-color: lightgray;
+  z-index: 9 !important;
+}
+
+#hamburger:checked ~ .menu-visibility {
+  visibility: visible;
+}
+
+/* -----------------media per menu orizzontale ------------------ */
+@media screen and (min-width: 980px) {
+  .menuicon {
+    display: none; /* togliere icona hambuger icon */
+  }
+  .link-food {
+    color: black !important;
+  }
+  #bar #logo {
+    float: left;
+    margin-left: 12px;
+  }
+  nav {
+    z-index: 3;
+    margin-top: 19px;
+    height: auto;
+    background-color: transparent;
+    transition: none;
+    width: auto;
+    float: right;
+    right: 12px;
+    visibility: visible;
+    /* font-family: "Roboto Slab", serif; */
+    overflow: inherit;
+  }
+  .active {
+    background-color: transparent;
+    color: black;
+  }
+  .active-dropdown {
+    color: black;
+   
+  }
+  nav ul {
+    padding: 0;
+  }
+  nav ul li a {
+    padding: 0;
+    display: inline;
+    font-size: 16px;
+    color: black;
+  }
+  nav ul li a:hover {
+    background-color: transparent;
+    color: rgb(179, 174, 174);
+  }
+  .submenu {
+    padding-left: 0;
+    color: black;
+  }
+  nav ul li {
+    margin: 0;
+    float: left;
+    position: relative;
+    padding: 0 16px;
+  }
+  /* .submenu::after {
+    content: url(img/arrow-down.svg);
+    float: right;
+    padding-left: 6px;
+  } */
+  /* ----------------- dropdown - attivare il menu a tendina ------------------ */
+  nav ul li ul {
+    position: fixed;
+    height: 0;
+    overflow: hidden;
+    background-color:lightgray; /* primary color*/
+  }
+  nav ul li:hover ul {
+    height: auto;
+    padding-top: 14px;
+    position: absolute;
+    right: 0;
+  }
+  nav ul li ul li {
+    font-size: 14px;
+    font-weight: normal;
+    float: none;
+    padding: 0;
+    min-width: 160px;
+    /* border-top: 1px solid #b3453e; */
+  }
+  nav ul li ul li a {
+    padding: 16px 32px;
+    display: block;
+    background-color: white;
+    color: #ffffff;
+    font-weight: normal;
+  }
+  nav ul li ul li a:hover {
+    background-color: rgb(168, 166, 166);
+    color: #ff6759;
+    transform: scale(1.2);
+  }
+  .lingua {
+    border-top: 0;
+    border-left: solid 1px black;
+    float: left;
+    color: black;
+  }
+
+}
+@media screen and (min-width: 50px) and (max-width: 767px) {
+  
+  #mobile {
+    display: block;
+    text-align: center;
+  }
+  #medium {
+    display: none;
+    text-align: center;
+  }
+  #desktop {
+    display: none;
+    text-align: center;
+  }
+  #offerta {
+    width: 20rem !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #mobile {
+    display: none;
+    text-align: center;
+  }
+  #medium {
+    display: block;
+    text-align: center;
+  }
+  #desktop {
+    display: none;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #mobile {
+    display: none;
+  }
+  #medium {
+    display: none;
+  }
+  #desktop {
+    display: block;
+  }
+}
+/* footer {
+  width: 100%;
+  background-color: #a24038;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  bottom: 0;
+  margin: 0;
+} */
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#partnership h2 {
+  margin: 0 !important;
+}
+
+#title {
+  margin-top: 0 !important;
+  margin-bottom: 3rem !important;
+}
+
+#title, #first-title,
+h2 {
+  color: #a24038 !important;
+  font-weight: 800 !important;
+}
+
+#carousel .container {
+  width: 100% !important;
+}
+
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  height: 10px;
+  width: 10px;
+  margin-bottom: 1px;
+}
+
+#carousel .item {
+  background-color: none !important;
+}
+
+@media screen and (min-width: 50px) and (max-width: 600px) {
+  .sushi {
+    font-size: 1rem;
+  }
+  .vacche {
+    font-size: 1rem;
+  }
+  .panozzi {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  .sushi {
+    font-size: 1.75rem;
+  }
+  .vacche {
+    font-size: 1.75rem;
+  }
+  .panozzi {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .sushi {
+    font-size: 2.5rem;
+  }
+  .vacche {
+    font-size: 2rem;
+  }
+  .panozzi {
+    font-size: 2.2rem;
+  }
+}
+.div-quote {
+  background-color: transparent !important;
+}
+
+#toggle {
+  transition: all 200ms;
+}
+
+#lampadina {
+  font-size: 5rem;
+  color: #a24038;
+}
+
+/* .body {
+  background-color: #333333 !important;
+  background-image: none;
+  color: #ff6759 !important;
+}
+
+.footerdark {
+  background-color: #282727 !important;
+  color: #ff6759 !important;
+} */
+
+
+@media screen and (max-width: 970px) {
+
+  .logo{
+margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .example-full-width{ 
+margin-left: 0; 
+width: 69%; 
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

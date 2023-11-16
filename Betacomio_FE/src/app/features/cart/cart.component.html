@@ -1,0 +1,45 @@
+<div class="header">
+    <h1>YOUR CART</h1>
+    <div class="purchase">
+        <p class="total">
+            Total: {{this.cart.total | currency:'EUR'}}
+        </p>
+        <button mat-raised-button class="color-button purchase-button"  (click)="this.order.purchaseCart()">Purchase</button>
+    </div>
+</div>   
+
+
+<li *ngFor="let a of this.cart.countedCart; let i = index">
+    <div class="container">
+        <div class="header">
+            <p class="name">{{a.product.categoryName}} : {{a.product.name}} | <span style="font-size: 12px;">{{a.product.productNumber}}</span> </p>
+            <button mat-raised-button class="color-button"  (click)="removeProducts(a.product, a.orderQty)">Remove all</button>
+        </div>
+        <div class="container-info-img">
+            <div style="background-image: url(https://picsum.photos/300/300?random={{i}}); background-position: center; background-repeat: no-repeat; background-size: cover; width: 300px; "></div>
+            <div class="container-info">
+                <div class="info">
+                    <p>Unit Price: <span style="text-decoration: line-through; color: red; margin-right: 8px;">{{a.product.listPrice | currency:'EUR'}}</span> {{a.product.standardCost | currency:'EUR'}}</p>
+                    <div class="quantity">
+                        <button mat-fab class="qtyColor" disabled aria-label="Example fab with a heart icon">
+                            {{this.a.orderQty}}
+                        </button>                    
+                        <button (click)="removeOneFromCart(a.product)" class="icon-btn add-btn">  
+                            <div class="btn-txt">Remove</div>
+                        </button>                    
+                        <button (click)="addOneToCart(a.product)" class="icon-btn add-btn">
+                            <div class="add-icon"></div>
+                            <div class="btn-txt">Add</div>
+                        </button>
+                    </div>                
+                    <p>SubTotal: {{this.a.product.standardCost * this.a.orderQty | currency:'EUR'}}</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</li>
+
+<hr>
+<br>
+
+<button mat-raised-button class="color-button-secondary" (click)="clearCart()">Clear Cart</button>

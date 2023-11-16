@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ff3c00;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.name {
+    font-size: 20px;
+}
+
+.mat-mdc-raised-button.color-button {
+    background-color: #ff3c00;
+    color: white;
+}
+
+.mat-mdc-raised-button.color-button-secondary {
+    background-color: white;
+    color: #023047;
+    margin-left: 10px;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.info p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quantity {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.qtyColor {
+    background-color: white;
+    color: #ff3c00;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header #productName {
+    font-size: 25px;
+}
+
+.container {
+    border-style: solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #023047;
+    color: white;
+}
+
+.container-info-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;    
+    border-bottom-style: groove;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;  
+}
+
+.purchase {
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.purchase-button {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.img {
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* button + - */
+.main-hr {
+    width: 30%;
+    border: none;
+    border-top: 1px solid #c3c3c3;
+  }
+  .icon-btn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.2s ease-in-out;
+    margin-left: 5px;
+  }
+  .add-btn:hover {
+    width: 120px;
+  }
+  .add-btn::before,
+  .add-btn::after {
+    transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 10px;
+    top: calc(50% - 2px);
+    background: #ff3c00;
+  }
+  .add-btn::after {
+    right: 14px;
+    overflow: hidden;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .add-btn::before {
+    left: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .icon-btn:focus {
+    outline: none;
+  }
+  .btn-txt {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .add-btn:hover::before,
+  .add-btn:hover::after {
+    width: 4px;
+    border-radius: 2px;
+  }
+  .add-btn:hover .btn-txt {
+    opacity: 1;
+  }
+  .add-icon::after,
+  .add-icon::before {
+    transition: all 0.2s ease-in-out;
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    top: calc(50% - 10px);
+    background: #ff3c00;
+    overflow: hidden;
+  }
+  .add-icon::before {
+    left: 22px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .add-icon::after {
+    right: 22px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .add-btn:hover .add-icon::before {
+    left: 15px;
+    height: 4px;
+    top: calc(50% - 2px);
+  }
+  .add-btn:hover .add-icon::after {
+    right: 15px;
+    height: 4px;
+    top: calc(50% - 2px);
+  }
+

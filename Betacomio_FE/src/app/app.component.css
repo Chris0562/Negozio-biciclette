@@ -1,0 +1,56 @@
+.wrapper { 
+  min-height: 100vh;  
+  /* Altezza minima pari all'altezza della viewport */ 
+  display: flex; 
+  flex-direction: column; 
+} 
+ 
+.content { 
+  flex: 1;  
+  width: 100%; 
+  background-color: rgb(79,73,73); 
+  margin-top: 50px; 
+ 
+  /* Per far espandere il contenuto principale */ 
+} 
+ 
+app-footer { 
+  margin-top: auto; /* Pusha il footer verso il basso */ 
+} 
+
+
+
+app-footer { 
+  /* position: fixed; */ 
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+   
+  /* padding: 10px;  */ 
+  /* Aggiungi spaziatura interna a piacere */ 
+  border-top: 1px solid #ccc; /* Aggiungi una linea superiore a piacere */ 
+  text-align: center; /* Centra il testo orizzontalmente */
+  z-index: 10; 
+} 
+router-outlet { 
+  position: fixed; 
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+   
+  /* padding: 10px;  */ 
+  /* Aggiungi spaziatura interna a piacere */ 
+   /* Aggiungi una linea superiore a piacere */ 
+  text-align: center; /* Centra il testo orizzontalmente */ 
+} 
+app-nav { 
+  position: fixed; 
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+   
+  /* padding: 10px;  */ 
+  /* Aggiungi spaziatura interna a piacere */ 
+/* Aggiungi una linea superiore a piacere */ 
+  text-align: center; /* Centra il testo orizzontalmente */ 
+}
